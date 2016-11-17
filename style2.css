@@ -1,0 +1,39 @@
+body {
+    background-image: url(http://cdn.wallpapersafari.com/79/67/wT6xk7.jpg);
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 { 
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+   background-color: green; 
+   color: white;
+   display: table;
+   margin:0 auto;
+}
+
+li {
+  background-color: green; 
+  color: blue;
+}
+
+
+
+p {
+background-color: green; 
+    color: white;
+    text-align:center;
+}

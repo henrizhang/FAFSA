@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+ul {
+   color: white;
+   display: table;
+   margin:0 auto;
+}
+
+li {
+  color: blue;
+}
+
+
+
+p {
+    color: white;
+    text-align:center;
+    opacity: 0.5;
+}
+
+
