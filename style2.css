@@ -1,39 +1,58 @@
 body {
-    background-image: url(http://cdn.wallpapersafari.com/79/67/wT6xk7.jpg);
-     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://i.makeagif.com/media/6-07-2016/i4R0PZ.gif);
+    font-family: "Comic Sans", Georgia, Serif;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+.extreme {
+  text-align: center;
 }
 
-h3 { 
-    color: white;
-    text-align: center;
+.navzone {
+  color: #BA6E6E;
+  cursor: wait;
+  text-align: center;
+  background-image: url(https://media.tenor.co/images/6d0cd88338f8c7a484703631c307ce86/raw); 
 }
 
-h2 {
-    color: white;
-    text-align: center;
+.content {
+  color: white;
+  text-align: center;
+  cursor: crosshair;
 }
+
+.prose {
+  background-color: #F5DDDD; 
+  color: #A63A50;
+}
+
+#head1 {
+  text-align: center;
+  color:white;
+}
+
+#tehlulz {
+    color: #A63A50;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #73AD21;
+}
+
 
 ul {
-   background-color: green; 
-   color: white;
+   color: #F0E7D8;
    display: table;
    margin:0 auto;
+   cursor: crosshair;
 }
 
 li {
-  background-color: green; 
-  color: blue;
+  color: red;
+  background-color: white;
 }
 
-
-
-p {
-background-color: green; 
-    color: white;
-    text-align:center;
+li a:hover {
+    color: red;
+    font-size: 2em;
 }

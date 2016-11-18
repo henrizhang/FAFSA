@@ -1,38 +1,55 @@
 body {
-    background-color: grey;
+    background-color: #A1674A;
+    font-family: "Comic Sans", Georgia, Serif;
 }
 
-h1 {
-    color: white;
+.extreme {
+  text-align: center;
+}
+
+.navzone {
+  color: #BA6E6E;
+  cursor: wait;
+  text-align: center;
+  background-color: #F5DDDD; 
+}
+
+.content {
+  color: white;
+  text-align: center;
+}
+
+.prose {
+  background-color: #F5DDDD; 
+  color: #A63A50;
+}
+
+#head1 {
+  text-align: center;
+  color:white;
+}
+
+#tehlulz {
+    color: #A63A50;
     text-align: center;
 }
 
-h3 {
-    color: blue;
-    text-align: center;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-}
 
 ul {
-   color: white;
+   color: #F0E7D8;
    display: table;
    margin:0 auto;
+   cursor: crosshair;
 }
 
 li {
-  color: blue;
+  color: red;
 }
 
-
-
-p {
-    color: white;
-    text-align:center;
-    opacity: 0.5;
+li a:hover {
+    color: red;
+    font-size: 2em;
 }
 
+  
 
