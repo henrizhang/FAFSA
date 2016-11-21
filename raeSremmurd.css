@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: red;
+}
+body {
+	font-family:Impact, fantasy;
+    background-color: #090C02;
+    background: linear-gradient( #A72608, black	);
+    cursor: help;
+}
+.preface {
+	color: #E6EED6;
+	text-align: center;
+	transform: rotate(0deg);
+}
+
+#header{
+	position: relative;
+    display: inline-block;
+    border-bottom: .5px dotted black;	
+    text-align: center;
+    color: #E6EED6;
+
+}
+
+.ritual{
+
+	color: #BBC5AA;
+	text-align: center;
+	text-shadow: .1em .1em 5px;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2	px 0;
+    position: relative;
+    z-index: 1;
+}
+
+#header:hover .tooltiptext {
+    visibility: visible;
+}
